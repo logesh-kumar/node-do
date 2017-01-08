@@ -2,7 +2,7 @@
 FROM node:6
 
 # Clone the repo from github
-RUN git clone https://github.com/gangachris/DO-nodejs
+RUN git clone https://github.com/logesh-kumar/node-do
 
 # Change workind directory to the cloned repo
 WORKDIR /DO-nodejs
